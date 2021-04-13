@@ -50,6 +50,9 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+.links.item.nav.current {
+  color: var(--accent-cl);
+}
 .links {
   color: inherit;
   text-decoration: none;
@@ -135,5 +138,29 @@ body {
   opacity: 0.6;
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+/* Стили страницы Portfolio */
+.project {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+.filters {
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  line-height: 1.6;
+  background-color: var(--light-bg);
+  color: var(--title-cl);
+}
+.btn.filters:hover,
+.btn.filters:active {
+  background-color: var(--accent-cl);
+  color: var(--white-bg);
+}
+.project-type {
+  color: var(--main-text-cl);
+  font-size: 16px;
+  line-height: 1.9;
   letter-spacing: 0.03em;
 }
